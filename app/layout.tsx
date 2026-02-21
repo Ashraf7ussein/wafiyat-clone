@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Almarai } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import BottomTabs from "@/components/BottomTabs";
 
 export const metadata: Metadata = {
   title: "Wafiyat Clone",
@@ -19,8 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={almarai.className}>{children}</body>
+    <html lang="ar" dir="rtl">
+      <body className={almarai.className}>
+        <Navbar />
+        <main>{children}</main>
+        <BottomTabs />
+      </body>
     </html>
   );
 }

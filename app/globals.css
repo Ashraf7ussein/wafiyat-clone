@@ -3,6 +3,8 @@
 @theme {
   --color-background: #262626;
   --color-foreground: #ffffff;
+  --color-primary: #7ea3cc;
+  --color-text: #aaaaaa;
 }
 
 html,
