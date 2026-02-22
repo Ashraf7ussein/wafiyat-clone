@@ -1,14 +1,11 @@
 "use client";
 
-import Logo from "@/public/Logo.webp";
-import Image from "next/image";
 import Link from "next/link";
-import { LuNewspaper } from "react-icons/lu";
-import { FaRegHeart } from "react-icons/fa6";
-import { FaClockRotateLeft } from "react-icons/fa6";
-import { IoPersonCircleOutline } from "react-icons/io5";
-import { TbLeaf2 } from "react-icons/tb";
 import { usePathname } from "next/navigation";
+import { FaClockRotateLeft, FaRegHeart } from "react-icons/fa6";
+import { IoPersonCircleOutline } from "react-icons/io5";
+import { LuNewspaper } from "react-icons/lu";
+import { TbLeaf2 } from "react-icons/tb";
 
 const navLinks = [
   {
