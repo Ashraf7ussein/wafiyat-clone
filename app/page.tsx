@@ -1,3 +1,4 @@
+import FamiliesSlider from "@/components/FamiliesSlider";
 import WeekObituariesSlider from "@/components/WeekObituaries";
 
 const HomePage = async () => {
@@ -18,8 +19,9 @@ const HomePage = async () => {
   console.log("todayDeceaseds", todayDeceaseds);
   console.log("families", families);
   return (
-    <div className="px-4">
+    <div className="px-4 space-y-8">
       <WeekObituariesSlider weekDeceaseds={weekDeceaseds} />
+      <FamiliesSlider families={families} />
     </div>
   );
 };

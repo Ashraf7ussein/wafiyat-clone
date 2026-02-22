@@ -8,6 +8,7 @@ export interface Deceased {
   cause_of_death: string;
 }
 
-export interface WeekObituariesProps {
-  weekDeceaseds: Deceased[];
+export interface Family {
+  id: number;
+  value: string;
 }
