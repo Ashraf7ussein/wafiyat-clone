@@ -55,7 +55,11 @@ const WeekObituaries = ({ weekDeceaseds }: Props) => {
         itemClass="px-2"
       >
         {weekDeceaseds.map((deceased) => (
-          <DeceasedCard key={deceased.id} deceased={deceased} />
+          <DeceasedCard
+            key={deceased.id}
+            deceased={deceased}
+            layout="vertical"
+          />
         ))}
       </Carousel>
     </>
