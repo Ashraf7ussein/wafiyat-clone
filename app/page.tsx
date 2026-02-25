@@ -28,7 +28,7 @@ const HomePage = async () => {
       <h2 className="text-xl font-bold">وفيات الأردن </h2>
       <TabSelector />
 
-      <div className="grid grid-cols-3 gap-1.5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-1.5">
         {todayDeceaseds.map((deceased: Deceased) => (
           <DeceasedCard key={deceased.id} deceased={deceased} />
         ))}

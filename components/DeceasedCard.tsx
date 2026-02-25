@@ -37,7 +37,7 @@ const DeceasedCard = ({ deceased, layout = "horizontal" }: Props) => {
             alt={deceased.full_name}
             width={80}
             height={80}
-            className="rounded-xl object-cover border-2 border-primary/50"
+            className="rounded-xl object-cover border-2 border-primary/50 h-full"
           />
 
           <div className="space-y-0.5">
